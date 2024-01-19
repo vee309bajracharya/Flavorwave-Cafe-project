@@ -235,7 +235,7 @@ section{
 }
 
 .home-bg .home{
-  min-height: 51.8rem;
+  min-height: 65rem;
 }
 
 .home .content{
@@ -246,7 +246,7 @@ section{
 
 .home-bg .home .content h3{
   text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.40);
-  font-size: 5rem;
+  font-size: 7.4rem;
   font-family: var(--heading-title-ff);
   font-weight: 750;
   color: var(--headings-color);
@@ -612,7 +612,7 @@ footer .container{
   background-size: cover;
 }
 .about-bg .about-us{
-  min-height: 51.8rem;
+  min-height: 65rem;
 }
 .about-us .content{
   position: relative;
@@ -623,7 +623,7 @@ footer .container{
 }
 .about-us .content h3{
   font-family: var(--button-ff);
-  font-size: 7.5rem;
+  font-size: 9rem;
   color: var(--bg-white-color);
 }
 .about-us .content p{
@@ -844,7 +844,7 @@ footer .container{
   background-position: center;
 }
 .menu-bg .menu{
-  min-height: 51.8rem;
+  min-height: 65rem;
 }
 
 .menu .content{
@@ -854,7 +854,7 @@ footer .container{
 }
 .menu .content h3{
   font-family: var(--button-ff);
-  font-size: 7.5rem;
+  font-size: 8rem;
   color: var(--bg-white-color);
 }
 .menu .content p{
@@ -884,7 +884,7 @@ footer .container{
 }
 
 #menu-container{
-  margin: 4rem auto;
+  margin: 10rem auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, 28rem);
   gap: 9rem;
@@ -973,12 +973,12 @@ footer .container{
 .merch-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, 30rem);
-  gap: 7rem;
+  gap: 10rem;
 }
 .merch-box{
   background-color: var(--bg-container-color-2);
   border-radius: 15px;
-  width: 110%;
+  width: 350px;
 }
 .merch-icon{
   font-size: 2.2rem;
@@ -1094,7 +1094,7 @@ footer .container{
   background-position:center;
 }
 .app{
-  min-height: 51.8rem;
+  min-height: 65rem;
   display: flex;
   align-items: center;
   gap: 3rem;
@@ -1304,7 +1304,7 @@ footer .container{
   background-size: cover;
 }
 .contact{
-  min-height: 51.8rem;
+  min-height: 65rem;
   display: flex;
   gap: 2rem;
   align-items: center;
@@ -1511,4 +1511,18 @@ footer .container{
     .right_content_bg_img .img__bg img{
       width: 650px;
       margin-left: -10rem;
+    }
+
+    /* Feedbacks */
+    .text-bold{
+      margin: 3rem 0;
+      font-size: 1.5rem;
+      font-weight: 100;
+      font-family: var(--heading-title-ff);
+    }
+
+    .large_text{
+      margin: 3rem 0;
+      font-size: 2.5rem;
+      font-family: var(--footer-ff);
     }
